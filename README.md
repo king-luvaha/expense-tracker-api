@@ -92,6 +92,26 @@ uvicorn app.main:app --reload
 * API Docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 * Redoc: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
+### ⚠️ **Important Note:**
+
+Ensure that your **virtual environment is activated** before running `uvicorn`.  
+
+If not, you may see an error like:
+```
+uvicorn : The term 'uvicorn' is not recognized as the name of a cmdlet...
+```
+
+#### ✅ Activate the virtual environment:
+* Windows:
+```bash
+venv\Scripts\activate
+```
+
+* macOS/Linux:
+```bash
+source venv/bin/activate
+```
+
 ---
 
 ## 📫 Postman Testing
