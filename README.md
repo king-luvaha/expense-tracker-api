@@ -1,12 +1,5 @@
-Here's a full, professional-quality `README.md` for your **Expense Tracker API** GitHub repository. It's structured for clarity, ease of use, and professionalism, including badges, setup instructions, features, and Postman usage.
-
----
-
-### ✅ `README.md`
-
-```markdown
 # 💰 Expense Tracker API
-SE
+
 A secure and fully-featured RESTful API for tracking personal expenses. Built with **FastAPI**, **SQLAlchemy**, and **JWT Authentication**, this project allows users to manage their expenses with CRUD operations and filter them by various date ranges.
 
 ---
