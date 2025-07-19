@@ -27,8 +27,8 @@ A secure and fully-featured RESTful API for tracking personal expenses. Built wi
 expense-tracker-api/
 ├── app/
 │   ├── routes/
-│   │   ├── auth\_routes.py        # /auth/signup and /auth/login
-│   │   └── expense\_routes.py     # /expenses/ CRUD and filters
+│   │   ├── auth_routes.py        # /auth/signup and /auth/login
+│   │   └── expense_routes.py     # /expenses/ CRUD and filters
 │   ├── auth.py                   # JWT logic and password hashing
 │   ├── database.py               # SQLAlchemy DB setup
 │   ├── deps.py                   # Current user dependency
